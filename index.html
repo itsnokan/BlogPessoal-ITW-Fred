@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frederick Daniel | Estudante LEI</title>
-    <!-- CSS Básico (Nível 1º Ano ITW) -->
+    <title>Frederick Daniel | Produtor & Estudante LEI</title>
     <link rel="stylesheet" href="css/style.css">
     
-    <!-- Ícones do FontAwesome -->
+    <!-- Animações e Ícones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-    <header>
+    <header data-aos="fade-down" data-aos-duration="1000">
         <nav class="navbar">
             <a href="#inicio" class="logo">
                 <img src="img/foto-perfil.png" alt="Fred Daniel">
@@ -20,44 +20,48 @@
             </a>
             <ul class="nav-links">
                 <li><a href="#inicio">Início</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#projetos">Trabalhos</a></li>
+                <li><a href="#blog">O Meu Blog</a></li>
+                <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#setup">Setup</a></li>
                 <li><a href="#namorada">A Patroa</a></li>
-                <li><a href="#contactos">Contacto</a></li>
+                <li><a href="#contactos">Bora Falar</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- HERO SECTION -->
     <section id="inicio" class="hero">
-        <div class="hero-cross"><i class="fa-solid fa-cross"></i></div>
-        <h1>Música e Código</h1>
-        <p>A tentar glorificar a Deus enquanto estudo Engenharia Informática e faço uns beats no quarto.</p>
-        <div class="verse">"E conhecereis a verdade, e a verdade vos libertará." — João 8:32</div>
+        <div class="hero-cross" data-aos="zoom-in" data-aos-duration="1500"><i class="fa-solid fa-cross"></i></div>
+        <h1 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">A Música como Adoração</h1>
+        <p data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">Entre linhas de código na faculdade e beats no quarto, a tentar glorificar a Deus no processo.</p>
+        <div class="verse" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">"E conhecereis a verdade, e a verdade vos libertará." <br>— João 8:32</div>
     </section>
 
-    <!-- SOBRE MIM -->
+    <!-- SOBRE MIM / PROPÓSITO -->
     <section id="sobre" class="section-wrapper">
-        <h2 class="section-title">Quem Sou Eu?</h2>
+        <h2 class="section-title" data-aos="fade-up">Quem Sou Eu?</h2>
         <div class="about-grid">
-            <div>
+            <div class="about-img-wrapper" data-aos="fade-right" data-aos-duration="1000">
+                <!-- Imagem necessária 1: Uma foto tua mais descontraída ou a programar/tocar -->
                 <img src="img/foto-perfil.png" alt="Frederick Daniel" class="about-img">
             </div>
             
-            <div class="caixa-escura">
-                <h2>Frederick Daniel</h2>
-                <p>Estudante do IPCB - LEI</p>
-                
-                <ul class="about-details">
-                    <li><strong>Nº Aluno:</strong> 20251413</li>
-                    <li><strong>Turma:</strong> Turma 3</li>
-                    <li><strong>Idade:</strong> 22 Anos</li>
-                </ul>
+            <div class="glass-box" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                <div class="about-info">
+                    <h2>Frederick Daniel</h2>
+                    <p class="about-role">Servo de Cristo &middot; Beatmaker &middot; Estudante</p>
+                    
+                    <ul class="about-details">
+                        <li><strong>Nº Aluno</strong>20251413</li>
+                        <li><strong>Turma</strong>Turma 3 de LEI</li>
+                        <li><strong>Idade</strong>22 Anos</li>
+                        <li><strong>Local</strong>IPCB</li>
+                    </ul>
 
-                <div class="about-text">
-                    <p>Boas! Criei este blog para a cadeira de ITW. Sinceramente, a ideia é mostrar um bocado do meu mundo. Tenho 22 anos, estudo Engenharia Informática e passo o tempo livre a produzir beats.</p>
-                    <p style="margin-top: 1rem;">Tento dar o meu melhor nas aulas práticas. Nem sempre é fácil conciliar os trabalhos de Algoritmos com o estúdio, mas vamos andando!</p>
+                    <div class="about-text">
+                        <p>Boas! Criei este blog para a cadeira de ITW. Sinceramente, a ideia é mostrar um bocado do meu mundo. Tenho 22 anos, estudo Engenharia Informática e passo o tempo livre a tentar produzir uns beats.</p>
+                        <p style="margin-top: 1rem;">Para mim, tanto a tecnologia como a música são formas de expressar a minha fé. Tento dar o meu melhor em tudo, porque acredito que Deus nos deu talento para ser usado. Nem sempre é fácil conciliar os trabalhos de grupo pesados de LEI com o estúdio, mas vamos andando com a graça de Deus!</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -65,67 +69,85 @@
 
     <!-- DEVOCIONAL DA SEMANA -->
     <section id="blog" class="section-wrapper">
-        <h2 class="section-title">Reflexão da Semana</h2>
-        <div class="devotional-card caixa-escura">
+        <h2 class="section-title" data-aos="fade-up">Reflexão da Semana</h2>
+        <div class="devotional-card glass-box" data-aos="zoom-in-up">
+            <!-- Imagem necessária 2: Uma foto tua a ler a Bíblia, num café, ou apenas uma paisagem calma -->
             <img src="img/biblia-cafe.png" alt="Tempo com Deus" class="devo-img">
             <div class="devo-content">
-                <p><strong>Atualizado em: Maio de 2026</strong></p>
+                <span class="devo-date">Última atualização: Maio de 2026</span>
                 <h3>Paz no meio do stress dos prazos</h3>
-                <p>Nesta última semana andei a bater mal com a quantidade de entregas de trabalhos. Houve noites em que quase adormeci em cima do teclado a tentar fechar bugs em C e HTML.</p>
-                <p>Mas lembrei-me de <strong>Filipenses 4:6-7</strong>. Fechei o VS Code, agarrei na guitarra e fiquei na boa. A paz d'Ele guarda a nossa mente em época de exames. Se também andas de cabeça em água, tira 10 minutos hoje só para desligar.</p>
+                <p>Nesta última semana andei a bater mal com a quantidade de entregas de trabalhos na faculdade. Houve noites em que quase adormeci em cima do teclado a tentar fechar bugs no código. Às vezes o stress bate tão forte que parece que não vamos dar conta do recado, né?</p>
+                <p>Mas ontem parei um bocado. Lembrei-me de <strong>Filipenses 4:6-7</strong>, sobre não andarmos ansiosos com coisa alguma. Fechei o VS Code, agarrei na guitarra e fiquei só ali na boa durante meia hora. A verdade é que a paz que vem d'Ele é real e guarda a nossa mente (e precisamos muito disso em época de exames). Se também andas de cabeça em água com a faculdade, tira 10 minutos hoje só para desligar. Vale a pena.</p>
             </div>
         </div>
     </section>
 
     <!-- DIÁRIO DE BORDO (TIMELINE) -->
-    <section class="section-wrapper">
-        <h2 class="section-title">Diário de Bordo</h2>
+    <section class="section-wrapper timeline-section">
+        <h2 class="section-title" data-aos="fade-up">Diário de Bordo</h2>
         <div class="timeline">
-            <div class="timeline-item caixa-escura">
-                <h4>Maio 2026</h4>
-                <p>A dar os últimos toques nesta Landing Page para ITW. O professor pediu um Blog Pessoal, por isso decidi fazer uma página inteira e usar CSS Grid para os meus projetos. Lancei um beat novo hoje!</p>
+            <div class="timeline-item" data-aos="fade-up">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-box">
+                    <h4>Maio 2026</h4>
+                    <p>A dar os últimos toques nesta Landing Page para ITW. O professor pediu um Blog Pessoal, espero que ele curta esta vibe mais cinematográfica e "Dark Mode". Também lancei um beat novo no Soundcloud hoje!</p>
+                </div>
             </div>
-            <div class="timeline-item caixa-escura">
-                <h4>Abril 2026</h4>
-                <p>Mês caótico com frequências de Bases de Dados. A malta da Turma 3 juntou-se para estudar e safámo-nos. A nível musical, comecei a explorar sintetizadores.</p>
+            <div class="timeline-item" data-aos="fade-up">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-box">
+                    <h4>Abril 2026</h4>
+                    <p>Mês caótico com frequências de Bases de Dados. Mas lá se fez. A malta da Turma 3 juntou-se para estudar e safámo-nos. A nível musical, comecei a explorar sintetizadores mais pesados para lhes dar uma vibe de adoração urbana.</p>
+                </div>
             </div>
-            <div class="timeline-item caixa-escura">
-                <h4>Março 2026</h4>
-                <p>Voltei a ler os Salmos. Fiquei bué inspirado a tentar traduzir aqueles poemas para arranjos instrumentais no FL Studio.</p>
+            <div class="timeline-item" data-aos="fade-up">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-box">
+                    <h4>Março 2026</h4>
+                    <p>Voltei a ler os Salmos. Fiquei bué inspirado a tentar traduzir aqueles poemas para arranjos instrumentais. A música instrumental tem o poder de nos fazer sentir cenas que as palavras não chegam.</p>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- PROJETOS / BEATS -->
     <section id="projetos" class="section-wrapper">
-        <h2 class="section-title">Trabalhos do Estúdio</h2>
+        <h2 class="section-title" data-aos="fade-up">Estúdio & Trabalhos</h2>
         
         <div class="articles-grid">
-            <!-- Usa onclick chamando o JS simples -->
-            <article class="article-card" onclick="document.getElementById('modal1').style.display='block'">
-                <img src="img/beat-1.png" alt="Beat 1" class="article-img">
+            <article class="article-card" data-tilt data-tilt-glare data-tilt-max-glare="0.5" onclick="openModal('modal1')" data-aos="flip-left" data-aos-duration="1000">
+                <div class="article-img-wrapper">
+                    <!-- Imagem necessária 3: Uma foto ligada a música urbana/hip-hop -->
+                    <img src="img/beat-1.png" alt="Beat 1" class="article-img">
+                </div>
                 <div class="article-content">
                     <h3 class="article-title">Louvor Urbano</h3>
-                    <p>Beat mais pesado estilo hip-hop.</p>
-                    <span class="read-more">Ouvir Agora &gt;</span>
+                    <p class="article-desc">Como a cultura hip-hop e o evangelho se cruzam através de beats pesados mas com mensagem.</p>
+                    <span class="read-more">Ouvir Agora <i class="fas fa-arrow-right"></i></span>
                 </div>
             </article>
 
-            <article class="article-card" onclick="document.getElementById('modal2').style.display='block'">
-                <img src="img/beat-2.png" alt="Beat 2" class="article-img">
+            <article class="article-card" data-tilt data-tilt-glare data-tilt-max-glare="0.5" onclick="openModal('modal2')" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
+                <div class="article-img-wrapper">
+                    <!-- Imagem necessária 4: Uma foto de natureza, céu, ou luz suave -->
+                    <img src="img/beat-2.png" alt="Beat 2" class="article-img">
+                </div>
                 <div class="article-content">
-                    <h3 class="article-title">Génesis</h3>
-                    <p>Sintetizadores lentos para orar no quarto.</p>
-                    <span class="read-more">Ouvir Agora &gt;</span>
+                    <h3 class="article-title">Génesis (Sons da Criação)</h3>
+                    <p class="article-desc">Sintetizadores e pads lentos. Perfeito para ficar no quarto às escuras só a orar.</p>
+                    <span class="read-more">Ouvir Agora <i class="fas fa-arrow-right"></i></span>
                 </div>
             </article>
 
-            <article class="article-card" onclick="document.getElementById('modal3').style.display='block'">
-                <img src="img/beat-3.png" alt="Beat 3" class="article-img">
+            <article class="article-card" data-tilt data-tilt-glare data-tilt-max-glare="0.5" onclick="openModal('modal3')" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="400">
+                <div class="article-img-wrapper">
+                    <!-- Imagem necessária 5: Uma foto de código no ecrã ou cabos/hardware -->
+                    <img src="img/beat-3.png" alt="Beat 3" class="article-img">
+                </div>
                 <div class="article-content">
                     <h3 class="article-title">Engenharia do Som</h3>
-                    <p>Projeto de arquitetura de computadores e áudio.</p>
-                    <span class="read-more">Ver Projeto &gt;</span>
+                    <p class="article-desc">Quando os algoritmos da faculdade me ajudaram a processar áudio de forma diferente no estúdio.</p>
+                    <span class="read-more">Ver Projeto <i class="fas fa-arrow-right"></i></span>
                 </div>
             </article>
         </div>
@@ -133,39 +155,44 @@
 
     <!-- O MEU SETUP -->
     <section id="setup" class="section-wrapper">
-        <h2 class="section-title">O Meu Setup</h2>
+        <h2 class="section-title" data-aos="fade-up">O Meu Santuário (Setup)</h2>
         <div class="setup-grid">
-            <div class="setup-item caixa-escura">
+            <div class="setup-item glass-box" data-aos="zoom-in" data-aos-delay="100">
                 <i class="fas fa-laptop-code"></i>
-                <h3>Dev</h3>
-                <p>Uso um portátil normal com VS Code e o ecrã extra que dá jeito para ver a documentação.</p>
+                <h3>Dev / Código</h3>
+                <p>Onde escrevo o código e passo raiva. Uso um portátil jeitoso com VS Code. O ecrã extra dá bué jeito para dividir a documentação do código principal.</p>
             </div>
-            <div class="setup-item caixa-escura">
+            <div class="setup-item glass-box" data-aos="zoom-in" data-aos-delay="200">
                 <i class="fas fa-music"></i>
-                <h3>Áudio</h3>
-                <p>Teclado MIDI simples, monitores de estúdio e o meu FL Studio.</p>
+                <h3>Áudio / Beats</h3>
+                <p>Teclado MIDI 49 teclas, uns monitores de estúdio humildes, mas que batem bem, e o meu DAW de eleição. Aqui a magia (e a paz) acontecem.</p>
             </div>
-            <div class="setup-item caixa-escura">
+            <div class="setup-item glass-box" data-aos="zoom-in" data-aos-delay="300">
                 <i class="fas fa-bible"></i>
-                <h3>Foco</h3>
-                <p>Bíblia e um caderno ao lado do teclado. Para quando preciso de sair do ecrã.</p>
+                <h3>Foco & Fé</h3>
+                <p>Mesmo ao lado do teclado está a Bíblia e um bloco de notas. As melhores ideias vêm sempre de quando não estou focado num ecrã, mas a ouvir-Lo.</p>
             </div>
         </div>
     </section>
 
     <!-- SECÇÃO DA NAMORADA -->
     <section id="namorada" class="section-wrapper">
-        <h2 class="section-title">A Patroa</h2>
+        <h2 class="section-title" data-aos="fade-up">A Minha Maior Inspiração</h2>
         <div class="about-grid">
-            <div class="caixa-escura">
-                <h2>A minha maior inspiração</h2>
-                <p>A mulher que Deus colocou na minha vida.</p>
-                <div class="about-text" style="margin-top: 1rem;">
-                    <p>Ela é aquela que me atura quando o código não compila na aula prática, e quando passo horas fechado no quarto a afinar os kicks de um beat.</p>
-                    <p>A Engenharia Informática tira bué tempo, mas ela respeita o meu grind. Se este site de ITW tirar uma nota alta, uma boa parte vai para o apoio dela!</p>
+            <div class="glass-box" data-aos="fade-right" data-aos-duration="1000">
+                <div class="about-info">
+                    <h2>Mais que um código perfeito</h2>
+                    <p class="about-role">A mulher que Deus colocou na minha vida</p>
+                    
+                    <div class="about-text">
+                        <p>Eu não podia fazer um "Blog Pessoal" sem dedicar uma secção inteira a ela. Ela é aquela que me atura quando o código não compila, quando o servidor vai abaixo e quando passo horas fechado no estúdio a afinar os *kicks* de um beat.</p>
+                        <p style="margin-top: 1rem;">Muitos dizem que a Engenharia Informática rouba o nosso tempo todo, mas ela sabe respeitar o meu grind e ainda me puxa para cima. É a prova viva de que as melhores coisas que Deus nos dá não são coisas, são pessoas. Se este site tirar um 20, uma boa percentagem dessa nota vai para o apoio incondicional dela!</p>
+                    </div>
                 </div>
             </div>
-            <div>
+
+            <div class="about-img-wrapper" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                <!-- Podes trocar esta imagem pela vossa foto! -->
                 <img src="img/namorada.png" alt="A minha namorada" class="about-img">
             </div>
         </div>
@@ -173,41 +200,48 @@
 
     <!-- CONTACTOS -->
     <section id="contactos" class="section-wrapper">
-        <h2 class="section-title">Contactos</h2>
+        <h2 class="section-title" data-aos="fade-up">A Minha Caixa de Entrada</h2>
         
         <div class="contact-grid">
-            <div class="caixa-escura">
-                <form action="#" method="POST" onsubmit="event.preventDefault(); alert('Mensagem enviada!');">
+            <div class="glass-box" data-aos="fade-right" data-aos-duration="1000">
+                <p style="margin-bottom: 20px; color: var(--text-muted);">Queres trocar umas ideias sobre código, desafiar-me para fazer um beat juntos, ou se estiveres a passar uma fase menos boa e precisares de oração... apita aí em baixo. Costumo responder rápido.</p>
+                <form class="contact-form" action="#" method="POST" onsubmit="event.preventDefault(); alert('Mensagem enviada, mano! Deus abençoe!');">
                     <div class="form-group">
                         <label>Como te chamas?</label>
-                        <input type="text" required>
+                        <input type="text" required placeholder="O teu nome aí...">
                     </div>
                     <div class="form-group">
                         <label>O teu E-mail</label>
-                        <input type="email" required>
+                        <input type="email" required placeholder="Para eu te poder responder">
                     </div>
                     <div class="form-group">
-                        <label>Mensagem</label>
-                        <textarea rows="4" required></textarea>
+                        <label>O que se passa?</label>
+                        <textarea rows="5" required placeholder="Desabafa aqui, atira ideias, ou pede ajuda num bug de ITW haha..."></textarea>
                     </div>
-                    <button type="submit" class="btn-submit">Enviar</button>
+                    <button type="submit" class="btn-submit">Enviar Cena</button>
                 </form>
             </div>
 
-            <div>
-                <div class="info-item">
-                    <i class="fas fa-envelope"></i>
-                    <div>
-                        <h4>Email da Faculdade</h4>
-                        <p>frederick.daniel@ipcbcampus.pt</p>
+            <div class="contact-info-container" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email da Faculdade</h4>
+                            <p>frederick.daniel@ipcbcampus.pt</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p>+351 912 345 678</p>
+                        </div>
                     </div>
                 </div>
-                <div class="info-item">
-                    <i class="fas fa-phone"></i>
-                    <div>
-                        <h4>Telemóvel</h4>
-                        <p>+351 912 345 678</p>
-                    </div>
+                
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.6918847051394!2d-7.5029304!3d39.8143224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd3d671c667a421b%3A0xc3434685ff4cebf4!2sInstituto%20Polit%C3%A9cnico%20de%20Castelo%20Branco!5e0!3m2!1spt-PT!2spt!4v1714496420541!5m2!1spt-PT!2spt" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
         </div>
@@ -216,44 +250,85 @@
     <footer>
         <div class="social-menu">
             <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-spotify"></i></a>
             <a href="#"><i class="fab fa-github"></i></a>
         </div>
-        <p>&copy; 2026 Frederick Daniel. Trabalho Prático de ITW.</p>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Frederick Daniel. Feito à base de café, oração e flexbox.</p>
+        </div>
     </footer>
 
-    <!-- MODAIS SIMPLES EM JAVASCRIPT NATIVO (Sem animações avançadas) -->
-    <div id="modal1" class="modal-overlay">
-        <div class="modal-content">
-            <span class="close-modal" onclick="document.getElementById('modal1').style.display='none'">&times;</span>
+    <!-- MODAIS DE LUXO -->
+    <div id="modal1" class="modal-overlay" onclick="closeModal('modal1')">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <div class="close-modal" onclick="closeModal('modal1')"><i class="fas fa-times"></i></div>
             <img src="img/beat-1.png" class="modal-img" alt="Beat 1">
             <div class="modal-body">
-                <h2>Louvor Urbano</h2>
-                <p>Olha, este beat deu bué trabalho. Tentei misturar aquela pujança do hip-hop que eu curto ouvir no carro com um sample de um coro antigo.</p>
+                <h2 class="modal-title">Louvor Urbano</h2>
+                <div class="modal-meta">Produção Musical &bull; Frederick Daniel</div>
+                <p class="modal-text">Olha, este beat deu bué trabalho. Tentei misturar aquela pujança do hip-hop que eu curto ouvir no carro com um sample de um coro antigo. A ideia é mostrar que podemos dar glória a Deus com estilos de música modernos, sem preconceitos.</p>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
     </div>
 
-    <div id="modal2" class="modal-overlay">
-        <div class="modal-content">
-            <span class="close-modal" onclick="document.getElementById('modal2').style.display='none'">&times;</span>
+    <div id="modal2" class="modal-overlay" onclick="closeModal('modal2')">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <div class="close-modal" onclick="closeModal('modal2')"><i class="fas fa-times"></i></div>
             <img src="img/beat-2.png" class="modal-img" alt="Beat 2">
             <div class="modal-body">
-                <h2>Génesis</h2>
-                <p>Fiz isto num domingo à noite que estava a chover a potes. Abri uns sintetizadores super atmosféricos e deixei rolar.</p>
+                <h2 class="modal-title">Génesis</h2>
+                <div class="modal-meta">Atmosférico &bull; Frederick Daniel</div>
+                <p class="modal-text">Fiz isto num domingo à noite que estava a chover a potes. Abri uns sintetizadores super atmosféricos e deixei rolar. Quando oiço isto, lembro-me sempre de como o universo é gigante e de como o nosso Criador teve bué atenção aos detalhes.</p>
+                <audio controls class="audio-player">
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg">
+                </audio>
             </div>
         </div>
     </div>
 
-    <div id="modal3" class="modal-overlay">
-        <div class="modal-content">
-            <span class="close-modal" onclick="document.getElementById('modal3').style.display='none'">&times;</span>
+    <div id="modal3" class="modal-overlay" onclick="closeModal('modal3')">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <div class="close-modal" onclick="closeModal('modal3')"><i class="fas fa-times"></i></div>
             <img src="img/beat-3.png" class="modal-img" alt="Beat 3">
             <div class="modal-body">
-                <h2>Engenharia do Som</h2>
-                <p>Eu juro que as aulas serviram para alguma coisa. Comecei a entender melhor como o CPU processa os plugins de áudio e consegui otimizar o projeto.</p>
+                <h2 class="modal-title">Engenharia do Som</h2>
+                <div class="modal-meta">Teoria & Prática &bull; Frederick Daniel</div>
+                <p class="modal-text">Eu juro que as aulas de arquitetura de computadores serviram para alguma coisa. Comecei a entender melhor como o CPU processa os plugins de áudio e consegui otimizar o meu projeto inteiro no FL Studio para não crashar a toda a hora haha. É o nerd e o músico a darem as mãos.</p>
             </div>
         </div>
     </div>
 
+    <!-- SCRIPTS MÁGICOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <script>
+        // Inicializar Animações AOS
+        AOS.init({ 
+            duration: 1000, 
+            once: true,
+            offset: 100
+        });
+
+        // Inicializar Vanilla Tilt para Efeito 3D nos Cartões
+        VanillaTilt.init(document.querySelectorAll(".article-card"), {
+            max: 15,
+            speed: 400,
+            glare: true,
+            "max-glare": 0.3
+        });
+
+        // Controlo dos Modais
+        function openModal(id) { 
+            document.getElementById(id).classList.add('active'); 
+            document.body.style.overflow = 'hidden'; 
+        }
+        function closeModal(id) { 
+            document.getElementById(id).classList.remove('active'); 
+            document.body.style.overflow = 'auto'; 
+        }
+    </script>
 </body>
 </html>
