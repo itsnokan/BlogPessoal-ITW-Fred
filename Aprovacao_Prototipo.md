@@ -10,7 +10,7 @@
 O protótipo do **Blog Pessoal** foi desenvolvido focando na usabilidade, clareza e numa estética moderna, respeitando todas as diretrizes da Unidade Curricular de Interfaces e Tecnologias Web. 
 
 - **Layout e Responsividade:** Utilizou-se CSS nativo com *Flexbox* e *CSS Grid* para garantir que o design se adapta perfeitamente a qualquer ecrã (Desktop, Tablet e Mobile).
-- **Tipografia e Cores:** Foi selecionada a fonte *Inter* (Google Fonts) pela sua legibilidade excelente em ecrãs digitais. O esquema de cores baseia-se num contraste de azul vibrante (Primary: #3b82f6) com cinzento-escuro e fundos claros, conferindo um tom profissional mas acolhedor.
+- **Tipografia e Cores:** Foi selecionada a fonte *Inter* (Google Fonts) e *Georgia* para contrastes tipográficos elegantes. O esquema de cores baseia-se em tons de terra (castanhos, bege) e branco, conferindo um tom acolhedor, de paz e serenidade, alinhado com a identidade cristã do autor.
 - **Navegação:** Implementou-se um menu de navegação claro e fixo no topo (*sticky header*), permitindo ao utilizador orientar-se facilmente em qualquer ponto da leitura. O rodapé contém as ligações para as redes sociais através de ícones FontAwesome.
 - **Multimédia:** Foram estrategicamente colocados elementos de áudio e vídeo (YouTube) para aumentar o tempo de retenção do utilizador e tornar a experiência mais interativa.
 

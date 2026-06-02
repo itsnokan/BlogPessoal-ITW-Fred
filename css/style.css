@@ -1,12 +1,12 @@
 :root {
-    --primary-color: #3b82f6;
-    --primary-hover: #2563eb;
-    --secondary-color: #1e293b;
-    --background-color: #f8fafc;
-    --surface-color: #ffffff;
-    --text-main: #334155;
-    --text-muted: #64748b;
-    --border-color: #e2e8f0;
+    --primary-color: #8b5a2b; /* Earthy Brown */
+    --primary-hover: #a0522d; /* Sienna */
+    --secondary-color: #4e3629; /* Dark Brown */
+    --background-color: #faf8f5; /* Off-white / Beige */
+    --surface-color: #ffffff; /* White */
+    --text-main: #3e332a; /* Dark gray-brown */
+    --text-muted: #7b6d61; /* Muted brown */
+    --border-color: #e6dfd7;
     --radius: 8px;
     --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
     --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
@@ -81,8 +81,8 @@ header {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, var(--secondary-color), #0f172a);
-    color: white;
+    background: linear-gradient(135deg, var(--secondary-color), #2d1f18);
+    color: #f0e9e1;
     text-align: center;
     padding: 6rem 2rem;
     margin-bottom: 3rem;
@@ -91,13 +91,15 @@ header {
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
+    font-family: 'Georgia', serif; /* A bit more classic touch */
 }
 
 .hero p {
     font-size: 1.25rem;
-    color: #cbd5e1;
-    max-width: 600px;
+    color: #d1c8bd;
+    max-width: 700px;
     margin: 0 auto;
+    font-style: italic;
 }
 
 /* Main Content Container */
@@ -323,7 +325,7 @@ main {
 .form-group input:focus, .form-group textarea:focus {
     outline: none;
     border-color: var(--primary-color);
-    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+    box-shadow: 0 0 0 3px rgba(139, 90, 43, 0.1);
 }
 
 .btn-submit {
@@ -363,7 +365,7 @@ main {
 /* Footer & Secondary Menu */
 footer {
     background-color: var(--secondary-color);
-    color: white;
+    color: #e6dfd7;
     padding: 3rem 2rem 2rem;
     text-align: center;
     margin-top: 4rem;
@@ -394,7 +396,7 @@ footer {
 }
 
 .footer-bottom {
-    color: #cbd5e1;
+    color: #bfa996;
     font-size: 0.9rem;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     padding-top: 1.5rem;
