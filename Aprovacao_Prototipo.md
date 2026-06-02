@@ -10,7 +10,7 @@
 O protótipo do **Blog Pessoal** foi desenvolvido focando na usabilidade, clareza e numa estética moderna, respeitando todas as diretrizes da Unidade Curricular de Interfaces e Tecnologias Web. 
 
 - **Layout e Responsividade:** Utilizou-se CSS nativo com *Flexbox* e *CSS Grid*. Para elevar o nível visual a um patamar extremo, introduzimos o **Modo Noturno (Dark Mode)**, **Glassmorphism Dinâmico** e **Efeitos 3D**. O projeto opera como uma verdadeira **Single Page Application (Landing Page Única)** com transições altamente polidas e cinemáticas.
-- **Identidade Visual (Fred Daniel - Cristo no Centro):** O design assenta numa estética misteriosa, de produtor musical de alta gama, com tons escuros (Preto e Cinza) e fortes reflexos brilhantes em Dourado Divino. A mensagem cristã está em grande plano logo no cabeçalho (*Hero Section*). A listagem de itens exigida funciona através de elegantes Cartões 3D que abrem num **Modal de Luxo**, proporcionando uma experiência imersiva e sem falhas.
+- **Identidade Visual e "Copywriting" Pessoal:** O design assenta numa estética misteriosa, de produtor musical, mas o texto (copywriting) foi redigido de forma extremamente casual, humana e real. Foram introduzidas expressões do quotidiano universitário ("bater a cabeça no teclado", "safámo-nos na frequência"), anulando a sensação de "texto artificial". Adicionalmente, implementou-se um "Diário de Bordo" e uma secção "Setup", características vitais num autêntico **Blog Pessoal**.
 - **Navegação e Multimédia:** Menu *sticky* com *Glassmorphism*. Foram estrategicamente colocados elementos de áudio HTML5 (beats) e vídeo (YouTube) distribuídos pelas diferentes páginas, aumentando a retenção visual e demonstrando completo domínio técnico.
 
 ## 2. Benefícios do Protótipo
