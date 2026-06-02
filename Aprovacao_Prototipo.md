@@ -9,9 +9,10 @@
 ## 1. Decisões de Design
 O protótipo do **Blog Pessoal** foi desenvolvido focando na usabilidade, clareza e numa estética moderna, respeitando todas as diretrizes da Unidade Curricular de Interfaces e Tecnologias Web. 
 
-- **Layout e Responsividade:** Utilizou-se CSS nativo com *Flexbox* e *CSS Grid* para garantir que o design se adapta perfeitamente a qualquer ecrã (Desktop, Tablet e Mobile).
-- **Tipografia e Cores:** Foi selecionada a fonte *Inter* (Google Fonts) e *Georgia* para contrastes tipográficos elegantes. O esquema de cores baseia-se em tons de terra (castanhos, bege) e branco, conferindo um tom acolhedor, de paz e serenidade, alinhado com a identidade cristã do autor.
-- **Navegação:** Implementou-se um menu de navegação claro e fixo no topo (*sticky header*), permitindo ao utilizador orientar-se facilmente em qualquer ponto da leitura. O rodapé contém as ligações para as redes sociais através de ícones FontAwesome.
+- **Layout e Responsividade:** Utilizou-se CSS nativo com *Flexbox* e *CSS Grid*. Para elevar o nível visual, foram introduzidos conceitos de **Glassmorphism** (efeitos de vidro translúcido no cabeçalho) e **Neumorfismo** (sombras suaves dinâmicas), garantindo um design verdadeiramente *Premium*. Tudo feito com código CSS limpo, ideal para um aluno de 1º ano explicar.
+- **Tipografia e Cores:** Foi selecionada a fonte *Inter* e *Georgia*. O esquema de cores em tons de terra (castanhos, bege e creme) transmite serenidade.
+- **Identidade Visual e Marca (IA):** Foi criada uma marca própria "Fred Daniel" com imagens exclusivas (geradas via Inteligência Artificial) que misturam o ambiente de estúdio de um Beatmaker com a estética Cristã, dispensando fotos de stock genéricas.
+- **Navegação:** Menu *sticky* com *Glassmorphism* que se mantém elegante enquanto faz scroll. O rodapé contém as ligações para as redes sociais através de ícones FontAwesome.
 - **Multimédia:** Foram estrategicamente colocados elementos de áudio e vídeo (YouTube) para aumentar o tempo de retenção do utilizador e tornar a experiência mais interativa.
 
 ## 2. Benefícios do Protótipo
