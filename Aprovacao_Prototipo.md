@@ -9,8 +9,8 @@
 ## 1. Decisões de Design
 O protótipo do **Blog Pessoal** foi desenvolvido focando na usabilidade, clareza e numa estética moderna, respeitando todas as diretrizes da Unidade Curricular de Interfaces e Tecnologias Web. 
 
-- **Layout e Responsividade:** Utilizou-se CSS nativo com *Flexbox* e *CSS Grid*. Para elevar o nível visual a um patamar de excelência, introduziram-se conceitos de **Glassmorphism** e **Neumorfismo**. Além disso, o projeto adotou uma estrutura de **Single Page Application (Landing Page Única)**. Tudo acontece numa única página, com transições fluídas e *smooth-scrolling*, proporcionando uma experiência imersiva e sem interrupções de carregamento.
-- **Identidade Visual (Fred Daniel):** O design assenta numa estética "Terra" serena. Para a Listagem de Itens exigida no enunciado, adaptou-se o conceito para uma montra de "Beats". Em vez de abrir novas páginas HTML e quebrar a fluidez, os detalhes dos itens abrem em **Modais (Pop-ups)** sobrepostos à página atual, uma abordagem muito mais avançada e de alto nível em UI/UX.
+- **Layout e Responsividade:** Utilizou-se CSS nativo com *Flexbox* e *CSS Grid*. Para elevar o nível visual a um patamar extremo, introduzimos o **Modo Noturno (Dark Mode)**, **Glassmorphism Dinâmico** e **Efeitos 3D**. O projeto opera como uma verdadeira **Single Page Application (Landing Page Única)** com transições altamente polidas e cinemáticas.
+- **Identidade Visual (Fred Daniel - Cristo no Centro):** O design assenta numa estética misteriosa, de produtor musical de alta gama, com tons escuros (Preto e Cinza) e fortes reflexos brilhantes em Dourado Divino. A mensagem cristã está em grande plano logo no cabeçalho (*Hero Section*). A listagem de itens exigida funciona através de elegantes Cartões 3D que abrem num **Modal de Luxo**, proporcionando uma experiência imersiva e sem falhas.
 - **Navegação e Multimédia:** Menu *sticky* com *Glassmorphism*. Foram estrategicamente colocados elementos de áudio HTML5 (beats) e vídeo (YouTube) distribuídos pelas diferentes páginas, aumentando a retenção visual e demonstrando completo domínio técnico.
 
 ## 2. Benefícios do Protótipo
@@ -39,8 +39,8 @@ Início (index.html)
 Para transformar este protótipo na versão final de produção, as etapas seriam:
 1. **Fase 1: Revisão do Protótipo (Atual)** - Validação do layout, cores e responsividade em HTML/CSS estático. (Prazo: 1 Semana)
 2. **Fase 2: Integração Backend / CMS** - Ligação do site a um Sistema de Gestão de Conteúdos (ex: WordPress ou CMS customizado) para permitir a criação dinâmica de artigos sem alterar código. (Prazo: 2 Semanas)
-3. **Apresentação:** "Transformei o conceito base num modelo de Single Page Application (Landing Page única). Em vez de múltiplas páginas que quebram a navegação, criei secções dinâmicas ancoradas. Para cumprir os detalhes dos itens, desenvolvi um sistema de Modais com Javascript nativo e Glassmorphism, garantindo uma estética 100% premium. Utilizei ainda a biblioteca AOS para efeitos de entrada."
-4. **Encerramento:** "Desta forma demonstro as minhas capacidades de não me ficar pelo básico, dominando navegação in-page, manipulação de DOM e modais, ferramentas cruciais no mercado de trabalho."
+3. **Apresentação:** "Em vez de criar um blog banal, apliquei os meus conhecimentos para criar uma Landing Page Cinemática com forte impacto visual. Utilizei as bibliotecas `AOS.js` para animações em cascata e `VanillaTilt.js` para dar uma perceção tridimensional (3D) aos cartões quando o utilizador interage com eles. Tudo roda num ambiente Dark Mode super moderno, com modais flutuantes construídos 100% de raiz."
+4. **Encerramento:** "Assim, cumpro não só a estrutura de listagem de detalhes, mas mostro domínio absoluto de UI/UX, animações complexas baseadas no DOM e Glassmorphism."
 5. **Fase 4: Testes Finais e Lançamento** - Publicação no servidor web final, configuração de domínio e testes de segurança. (Prazo: 1 Semana)
 **Prazo Total Estimado:** 5 Semanas.
 
