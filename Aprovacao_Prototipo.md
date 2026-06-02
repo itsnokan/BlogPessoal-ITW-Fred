@@ -7,11 +7,11 @@
 ---
 
 ## 1. Decisões de Design
-O protótipo do **Blog Pessoal** foi desenvolvido usando as matérias ensinadas na cadeira de Interfaces e Tecnologias Web.
+O protótipo do **Blog Pessoal** foi desenvolvido focando na excelência máxima de UI/UX, aplicando ferramentas modernas e indo além do currículo base.
 
-- **Layout e Responsividade:** Utilizou-se CSS nativo com **Flexbox** e **CSS Grid** para organizar os conteúdos. O site foi todo estruturado numa única página ("Single Page Application") usando IDs e links internos de âncora para navegar sem recarregar a página. O esquema de cores é um Dark Theme que implementei com variáveis de CSS (`:root`).
+- **Layout e Responsividade:** Utilizou-se CSS nativo com **Flexbox** e **CSS Grid**, mas elevado com **Modo Noturno (Dark Mode)**, **Glassmorphism Dinâmico** e **Efeitos 3D**. O projeto opera como uma verdadeira **Single Page Application (Landing Page Única)** com transições altamente polidas e cinemáticas através da biblioteca AOS.js.
 - **Identidade Visual e Copywriting:** Como foi pedido um "Blog Pessoal", escrevi os textos de forma genuína sobre a minha experiência em LEI e a conciliação com a música, dividindo as secções por "Setup", "Diário de Bordo" e a minha parceira.
-- **Interatividade (Os Modais):** Para cumprir a exigência do enunciado (Listagem de Itens e Detalhe do Item), em vez de criar várias páginas `.html` separadas que são confusas, criei um sistema de Pop-ups (Modais) com Javascript base. Usei o simples `document.getElementById('modal').style.display = 'block'` que aprendemos nas teóricas, sem precisar de bibliotecas pesadas do mercado.
+- **Interatividade (Os Modais):** Para cumprir a exigência do enunciado (Listagem de Itens e Detalhe do Item), criei um sistema de Pop-ups (Modais) flutuantes super elegantes. Os cartões reagem fisicamente ao rato (Tilt 3D) usando VanillaTilt.js.
 
 ## 2. Benefícios do Protótipo
 - **Velocidade:** Sem plugins pesados, o CSS e JS carregam instantaneamente.
@@ -35,7 +35,7 @@ index.html (Página Principal)
 
 ## 4. Road-map para Produção
 1. **Fase Atual:** HTML/CSS/JS estático para avaliação de ITW (1 Semana).
-2. **Apresentação ao Professor:** Vou demonstrar como usei CSS Grid na grelha de projetos e Flexbox na navbar. Vou destacar que os Modais resolvem o problema dos detalhes do item usando apenas manipulação de DOM básica de 1º ano.
+2. **Apresentação ao Professor:** Vou demonstrar como implementei as bibliotecas `AOS.js` e `VanillaTilt.js` para ir além do básico, criando uma experiência verdadeiramente cinemática.
 
 ## 5. Proposta de Orçamento
 Caso este projeto fosse desenvolvido para um cliente real de produção musical:
