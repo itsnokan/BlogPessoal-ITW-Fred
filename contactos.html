@@ -5,31 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactos | Frederick Daniel</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Georgia&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="glass">
+    <header class="glass" data-aos="fade-down">
         <nav class="navbar">
             <a href="index.html" class="logo">
-                <img src="img/logo.png" alt="Fred Daniel Logo">
+                <img src="img/foto-perfil.png" alt="Fred Daniel Logo">
                 Fred<span>Daniel</span>
             </a>
             <ul class="nav-links">
                 <li><a href="index.html">Início</a></li>
                 <li><a href="sobre.html">Sobre Mim</a></li>
-                <li><a href="index.html">Artigos</a></li>
+                <li><a href="index.html">Projetos/Beats</a></li>
                 <li><a href="contactos.html" class="active">Contactos</a></li>
             </ul>
         </nav>
     </header>
 
     <main style="padding-top: 4rem;">
-        <h2 class="section-title">Entra em Contacto</h2>
+        <h2 class="section-title" data-aos="fade-up">Entra em Contacto</h2>
         
-        <div class="contact-container">
+        <div class="contact-container" data-aos="zoom-in" data-aos-duration="1200">
             <!-- Formulário -->
-            <form class="contact-form" action="#" method="POST" onsubmit="event.preventDefault(); alert('Mensagem enviada com sucesso!');">
+            <form class="contact-form" action="#" method="POST" onsubmit="event.preventDefault(); alert('Mensagem enviada com sucesso!');" data-aos="fade-right" data-aos-delay="200">
                 <div class="form-group">
                     <label for="nome">Nome</label>
                     <input type="text" id="nome" name="nome" placeholder="O teu nome" required>
@@ -49,9 +50,9 @@
             </form>
 
             <!-- Info e Mapa -->
-            <div class="contact-info">
+            <div class="contact-info" data-aos="fade-left" data-aos-delay="400">
                 <h3>Informações de Contacto</h3>
-                <p><i class="fas fa-envelope" style="color: var(--primary-color);"></i> email@estudante.ipcb.pt</p>
+                <p><i class="fas fa-envelope" style="color: var(--primary-color);"></i> al20251413@alunos.ipcb.pt</p>
                 <p><i class="fas fa-phone" style="color: var(--primary-color);"></i> +351 912 345 678</p>
                 
                 <h4 style="margin-top: 1rem;">A Nossa Localização</h4>
@@ -62,7 +63,7 @@
         </div>
     </main>
 
-    <footer>
+    <footer data-aos="fade-up">
         <div class="social-menu">
             <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
             <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
@@ -72,5 +73,7 @@
             <p>&copy; 2026 Frederick Daniel. Trabalho Final de ITW.</p>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
 </body>
 </html>

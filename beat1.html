@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produzindo Beats com Propósito | Frederick Daniel</title>
+    <title>Beat 1 | Frederick Daniel</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Georgia&display=swap" rel="stylesheet">
 </head>
@@ -12,43 +13,38 @@
     <header class="glass">
         <nav class="navbar">
             <a href="index.html" class="logo">
-                <img src="img/logo.png" alt="Fred Daniel Logo">
+                <img src="img/foto-perfil.png" alt="Fred Daniel Logo">
                 Fred<span>Daniel</span>
             </a>
             <ul class="nav-links">
                 <li><a href="index.html">Início</a></li>
                 <li><a href="sobre.html">Sobre Mim</a></li>
-                <li><a href="index.html" class="active">Artigos</a></li>
+                <li><a href="index.html" class="active">Projetos/Beats</a></li>
                 <li><a href="contactos.html">Contactos</a></li>
             </ul>
         </nav>
     </header>
 
     <main style="padding-top: 4rem;">
-        <article class="article-detail">
-            <img src="img/studio.png" alt="Mesa de mistura / Estúdio" class="article-detail-img">
+        <article class="article-detail" data-aos="fade-up">
+            <!-- PARA USARES A TUA FOTO PARA O BEAT 1, SUBSTITUI O FICHEIRO "beat-1.png" NA PASTA IMG -->
+            <img src="img/beat-1.png" alt="Beat 1" class="article-detail-img">
             
             <div class="article-detail-content">
-                <h1 class="article-detail-title">Produzindo Beats com Propósito</h1>
+                <h1 class="article-detail-title" data-aos="fade-right">Beats com Propósito</h1>
                 
-                <div class="article-meta">
-                    <span><i class="far fa-calendar-alt"></i> Publicado a 02 de Junho de 2026</span>
+                <div class="article-meta" data-aos="fade-in">
+                    <span><i class="far fa-music"></i> Projeto Instrumental</span>
                     <span style="margin-left: 1rem;"><i class="far fa-user"></i> Por Frederick Daniel</span>
                 </div>
 
                 <div class="article-body">
-                    <p>A música sempre foi uma das formas mais puras de adoração e expressão. Como beatmaker, passo horas no estúdio à procura da melodia perfeita, do kick certo e do bass que preencha a sala. Mas, mais do que técnica, a verdadeira essência da música para mim está no propósito.</p>
-                    
-                    <p>Quando leio <em>João 8:32</em>, lembro-me que a liberdade que encontro em Cristo se reflete na liberdade criativa que tenho ao compor. Cada instrumental que faço é uma oração silenciosa, uma tentativa de traduzir a paz que sinto em frequências e batidas.</p>
+                    <p data-aos="fade-up">A música sempre foi uma das formas mais puras de adoração. Como beatmaker e estudante de LEI, procuro que o meu software sirva um propósito maior. Cada instrumental que faço é uma oração silenciosa.</p>
 
-                    <!-- Elemento Multimédia (Vídeo Youtube) -->
-                    <h3 style="margin-top: 2rem; color: var(--secondary-color);">Como faço os meus beats:</h3>
-                    <div class="video-container">
-                        <!-- Podes substituir o src deste iframe por um vídeo teu no YouTube -->
+                    <h3 style="margin-top: 2rem; color: var(--secondary-color);" data-aos="fade-up">Produção do Beat:</h3>
+                    <div class="video-container" data-aos="zoom-in">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Processo de Beatmaking" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-
-                    <p>Espero que, através da música, possa abençoar a vida de outros, de forma que quem ouça consiga sentir um pouco de serenidade neste mundo tão caótico.</p>
                 </div>
             </div>
         </article>
@@ -64,5 +60,7 @@
             <p>&copy; 2026 Frederick Daniel. Trabalho Final de ITW.</p>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
 </body>
 </html>

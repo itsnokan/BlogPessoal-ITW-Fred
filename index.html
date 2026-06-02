@@ -4,84 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Início | Frederick Daniel</title>
-    <!-- CSS -->
+    <!-- CSS Customizado -->
     <link rel="stylesheet" href="css/style.css">
-    <!-- FontAwesome para Ícones -->
+    <!-- Efeitos Visuais Máximos (AOS) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Georgia&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Navegação Principal -->
-    <header class="glass">
+    <header class="glass" data-aos="fade-down">
         <nav class="navbar">
             <a href="index.html" class="logo">
-                <img src="img/logo.png" alt="Fred Daniel Logo">
+                <!-- PARA USARES A TUA FOTO, SUBSTITUI O FICHEIRO "foto-perfil.png" NA PASTA IMG -->
+                <img src="img/foto-perfil.png" alt="Fred Daniel Logo">
                 Fred<span>Daniel</span>
             </a>
             <ul class="nav-links">
                 <li><a href="index.html" class="active">Início</a></li>
                 <li><a href="sobre.html">Sobre Mim</a></li>
-                <li><a href="index.html">Artigos</a></li>
+                <li><a href="index.html">Projetos/Beats</a></li>
                 <li><a href="contactos.html">Contactos</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- BANNER -->
-    <section class="hero">
-        <h1>"E conhecereis a verdade, e a verdade vos libertará."</h1>
-        <p>João 8:32</p>
+    <!-- LANDING PAGE HERO SECTION -->
+    <section class="hero" data-aos="zoom-out" data-aos-duration="1500">
+        <h1 data-aos="fade-up" data-aos-delay="300">"E conhecereis a verdade, e a verdade vos libertará."</h1>
+        <p data-aos="fade-up" data-aos-delay="600">João 8:32</p>
     </section>
 
     <main>
-        <h2 class="section-title">Últimos Artigos</h2>
+        <h2 class="section-title" data-aos="fade-up">Os Meus Beats / Projetos</h2>
         
-        <!-- Listagem de Itens (Grelha Responsiva) -->
         <div class="articles-grid">
             
-            <!-- Item 1 -->
-            <article class="article-card">
+            <!-- BEAT 1 -->
+            <article class="article-card" data-aos="fade-up" data-aos-delay="100">
                 <div class="img-wrapper">
-                    <img src="img/studio.png" alt="Produção Musical" class="article-img">
+                    <!-- PARA USARES A TUA FOTO, SUBSTITUI O FICHEIRO "beat-1.png" NA PASTA IMG -->
+                    <img src="img/beat-1.png" alt="Produção Musical" class="article-img">
                 </div>
                 <div class="article-content">
-                    <h3 class="article-title">Produzindo Beats com Propósito</h3>
-                    <p class="article-desc">Como a minha fé inspira as melodias que crio. Descobre o processo por trás da produção de um beat instrumental voltado para o louvor.</p>
-                    <a href="artigo.html" class="read-more">Ler mais &rarr;</a>
+                    <h3 class="article-title">Beats com Propósito</h3>
+                    <p class="article-desc">Como a minha fé inspira as melodias que crio. Descobre o processo de adoração instrumental.</p>
+                    <a href="beat1.html" class="read-more">Ouvir Beat 1 &rarr;</a>
                 </div>
             </article>
 
-            <!-- Item 2 -->
-            <article class="article-card">
+            <!-- BEAT 2 -->
+            <article class="article-card" data-aos="fade-up" data-aos-delay="300">
                 <div class="img-wrapper">
-                    <img src="img/nature.png" alt="Natureza" class="article-img">
+                    <!-- PARA USARES A TUA FOTO, SUBSTITUI O FICHEIRO "beat-2.png" NA PASTA IMG -->
+                    <img src="img/beat-2.png" alt="Natureza" class="article-img">
                 </div>
                 <div class="article-content">
-                    <h3 class="article-title">A Paz Encontrada na Criação</h3>
-                    <p class="article-desc">Uma reflexão sobre como os momentos de silêncio na natureza me ajudam a conectar com Deus e encontrar inspiração sonora.</p>
-                    <a href="artigo.html" class="read-more">Ler mais &rarr;</a>
+                    <h3 class="article-title">A Paz na Criação</h3>
+                    <p class="article-desc">Um instrumental calmo focado em sintetizadores suaves, inspirado no silêncio de Deus.</p>
+                    <a href="beat2.html" class="read-more">Ouvir Beat 2 &rarr;</a>
                 </div>
             </article>
 
-            <!-- Item 3 -->
-            <article class="article-card">
+            <!-- BEAT 3 -->
+            <article class="article-card" data-aos="fade-up" data-aos-delay="500">
                 <div class="img-wrapper">
-                    <img src="img/drum.png" alt="Estúdio" class="article-img">
+                    <!-- PARA USARES A TUA FOTO, SUBSTITUI O FICHEIRO "beat-3.png" NA PASTA IMG -->
+                    <img src="img/beat-3.png" alt="Estúdio" class="article-img">
                 </div>
                 <div class="article-content">
-                    <h3 class="article-title">O Meu Setup de Beatmaker</h3>
-                    <p class="article-desc">Um olhar detalhado sobre os equipamentos e softwares que utilizo para criar as minhas instrumentais no dia-a-dia.</p>
-                    <a href="artigo.html" class="read-more">Ler mais &rarr;</a>
+                    <h3 class="article-title">O Meu Setup</h3>
+                    <p class="article-desc">As ferramentas de engenharia de som que utilizo para extrair o melhor ritmo de cada ideia.</p>
+                    <a href="beat3.html" class="read-more">Ver Setup &rarr;</a>
                 </div>
             </article>
 
         </div>
     </main>
 
-    <!-- Rodapé & Menu Secundário (Redes Sociais) -->
-    <footer>
+    <footer data-aos="fade-up">
         <div class="social-menu">
             <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
             <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
@@ -93,5 +94,14 @@
         </div>
     </footer>
 
+    <!-- INICIALIZAÇÃO DE ANIMAÇÕES -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 100
+        });
+    </script>
 </body>
 </html>
