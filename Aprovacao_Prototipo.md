@@ -17,9 +17,32 @@ O protótipo do **Blog Pessoal** foi desenvolvido usando as matérias ensinadas 
 - **Velocidade:** Sem plugins pesados, o CSS e JS carregam instantaneamente.
 - **Fácil Manutenção:** O CSS está organizado em secções (`header`, `section-wrapper`, `caixa-escura`), facilitando a leitura para o professor corrigir.
 
-## 3. Road-map para Produção
-1. **Fase Atual:** HTML/CSS/JS estático para avaliação de ITW.
+## 3. Testes de Usabilidade e Mapa do Site (Sitemap)
+
+**Testes Realizados:**
+- **Desktop:** Navegação testada em monitores. O CSS Grid organiza os projetos e o Flexbox alinha o cabeçalho.
+- **Mobile:** O site adapta-se, escondendo a navegação complexa e empilhando os conteúdos verticalmente.
+
+**Sitemap Lógico (Single Page Application):**
+Como o site é uma página única para maior modernidade, o fluxo lógico é:
+```text
+index.html (Página Principal)
+ ├── Início (Hero Banner)
+ ├── Blog Pessoal (Secções Sobre Mim, Setup, Diário e Autores)
+ ├── Detalhes dos Itens (Modais JS sobrepostos para cada projeto/beat)
+ └── Contactos (Formulário e Google Maps)
+```
+
+## 4. Road-map para Produção
+1. **Fase Atual:** HTML/CSS/JS estático para avaliação de ITW (1 Semana).
 2. **Apresentação ao Professor:** Vou demonstrar como usei CSS Grid na grelha de projetos e Flexbox na navbar. Vou destacar que os Modais resolvem o problema dos detalhes do item usando apenas manipulação de DOM básica de 1º ano.
+
+## 5. Proposta de Orçamento
+Caso este projeto fosse desenvolvido para um cliente real de produção musical:
+- **Design e UI/UX (Landing Page Moderna):** 300€
+- **Desenvolvimento Front-end (HTML/CSS/JS):** 450€
+- **Integração de Multimédia (Áudio, Vídeo, Maps):** 100€
+- **Total Estimado:** 850€
 5. **Fase 4: Testes Finais e Lançamento** - Publicação no servidor web final, configuração de domínio e testes de segurança. (Prazo: 1 Semana)
 **Prazo Total Estimado:** 5 Semanas.
 
