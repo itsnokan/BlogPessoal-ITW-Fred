@@ -15,72 +15,138 @@
 
     <header class="glass" data-aos="fade-down">
         <nav class="navbar">
-            <a href="index.html" class="logo">
-                <!-- PARA USARES A TUA FOTO, SUBSTITUI O FICHEIRO "foto-perfil.png" NA PASTA IMG -->
+            <a href="#inicio" class="logo">
                 <img src="img/foto-perfil.png" alt="Fred Daniel Logo">
                 Fred<span>Daniel</span>
             </a>
             <ul class="nav-links">
-                <li><a href="index.html" class="active">Início</a></li>
-                <li><a href="sobre.html">Sobre Mim</a></li>
-                <li><a href="index.html">Projetos/Beats</a></li>
-                <li><a href="contactos.html">Contactos</a></li>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos/Beats</a></li>
+                <li><a href="#contactos">Contactos</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- LANDING PAGE HERO SECTION -->
-    <section class="hero" data-aos="zoom-out" data-aos-duration="1500">
+    <section id="inicio" class="hero" data-aos="zoom-out" data-aos-duration="1500">
         <h1 data-aos="fade-up" data-aos-delay="300">"E conhecereis a verdade, e a verdade vos libertará."</h1>
         <p data-aos="fade-up" data-aos-delay="600">João 8:32</p>
     </section>
 
-    <main>
+    <!-- SECÇÃO SOBRE MIM -->
+    <section id="sobre" style="padding: 4rem 2rem;">
+        <h2 class="section-title" data-aos="fade-up">Sobre Mim</h2>
+        <div class="about-card" data-aos="zoom-in-up">
+            <img src="img/foto-perfil.png" alt="Logotipo Frederick Daniel" class="about-img" style="background: var(--secondary-color); padding: 2rem;">
+            <div class="about-info">
+                <h2 data-aos="fade-right" data-aos-delay="200">Frederick Daniel</h2>
+                <p class="about-role" data-aos="fade-right" data-aos-delay="300">Beatmaker & Estudante de Engenharia Informática</p>
+                
+                <ul class="about-details" data-aos="fade-up" data-aos-delay="400">
+                    <li><i class="fas fa-id-card"></i> <strong>Nº de Aluno:</strong> 20251413</li>
+                    <li><i class="fas fa-users"></i> <strong>Turma:</strong> Turma 3 de LEI</li>
+                    <li><i class="fas fa-calendar-alt"></i> <strong>Idade:</strong> 22 Anos</li>
+                    <li><i class="fas fa-code"></i> <strong>Curso:</strong> Eng. Informática</li>
+                </ul>
+
+                <div data-aos="fade-up" data-aos-delay="500">
+                    <p>Olá, a Paz do Senhor! O meu nome é Frederick Daniel. Esta é a minha Landing Page de alto impacto como projeto para a unidade curricular de Interfaces e Tecnologias Web.</p>
+                    <p style="margin-top: 1rem;">Além de estudar Engenharia, sou um jovem cristão e Beatmaker. Acredito que a tecnologia e a arte andam de mãos dadas, e que os talentos que Deus nos dá devem ser aplicados com excelência e propósito.</p>
+                </div>
+                
+                <h4 style="margin-top: 1.5rem; margin-bottom: 0.5rem; color: var(--secondary-color);" data-aos="fade-in" data-aos-delay="700">Ouve a minha demonstração sonora:</h4>
+                <audio controls class="audio-player" data-aos="flip-up" data-aos-delay="800">
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                    O teu navegador não suporta o elemento de áudio.
+                </audio>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECÇÃO PROJETOS/BEATS -->
+    <section id="projetos" style="padding: 4rem 2rem; background: var(--surface-color);">
         <h2 class="section-title" data-aos="fade-up">Os Meus Beats / Projetos</h2>
         
-        <div class="articles-grid">
+        <div class="articles-grid" style="max-width: 1200px; margin: 0 auto;">
             
             <!-- BEAT 1 -->
             <article class="article-card" data-aos="fade-up" data-aos-delay="100">
                 <div class="img-wrapper">
-                    <!-- PARA USARES A TUA FOTO, SUBSTITUI O FICHEIRO "beat-1.png" NA PASTA IMG -->
                     <img src="img/beat-1.png" alt="Produção Musical" class="article-img">
                 </div>
                 <div class="article-content">
                     <h3 class="article-title">Beats com Propósito</h3>
                     <p class="article-desc">Como a minha fé inspira as melodias que crio. Descobre o processo de adoração instrumental.</p>
-                    <a href="beat1.html" class="read-more">Ouvir Beat 1 &rarr;</a>
+                    <a href="javascript:void(0)" onclick="openModal('modal1')" class="read-more">Ouvir Beat 1 &rarr;</a>
                 </div>
             </article>
 
             <!-- BEAT 2 -->
             <article class="article-card" data-aos="fade-up" data-aos-delay="300">
                 <div class="img-wrapper">
-                    <!-- PARA USARES A TUA FOTO, SUBSTITUI O FICHEIRO "beat-2.png" NA PASTA IMG -->
                     <img src="img/beat-2.png" alt="Natureza" class="article-img">
                 </div>
                 <div class="article-content">
                     <h3 class="article-title">A Paz na Criação</h3>
                     <p class="article-desc">Um instrumental calmo focado em sintetizadores suaves, inspirado no silêncio de Deus.</p>
-                    <a href="beat2.html" class="read-more">Ouvir Beat 2 &rarr;</a>
+                    <a href="javascript:void(0)" onclick="openModal('modal2')" class="read-more">Ouvir Beat 2 &rarr;</a>
                 </div>
             </article>
 
             <!-- BEAT 3 -->
             <article class="article-card" data-aos="fade-up" data-aos-delay="500">
                 <div class="img-wrapper">
-                    <!-- PARA USARES A TUA FOTO, SUBSTITUI O FICHEIRO "beat-3.png" NA PASTA IMG -->
                     <img src="img/beat-3.png" alt="Estúdio" class="article-img">
                 </div>
                 <div class="article-content">
                     <h3 class="article-title">O Meu Setup</h3>
                     <p class="article-desc">As ferramentas de engenharia de som que utilizo para extrair o melhor ritmo de cada ideia.</p>
-                    <a href="beat3.html" class="read-more">Ver Setup &rarr;</a>
+                    <a href="javascript:void(0)" onclick="openModal('modal3')" class="read-more">Ver Setup &rarr;</a>
                 </div>
             </article>
 
         </div>
-    </main>
+    </section>
+
+    <!-- SECÇÃO CONTACTOS -->
+    <section id="contactos" style="padding: 4rem 2rem;">
+        <h2 class="section-title" data-aos="fade-up">Entra em Contacto</h2>
+        
+        <div class="contact-container" data-aos="zoom-in" data-aos-duration="1200">
+            <!-- Formulário -->
+            <form class="contact-form" action="#" method="POST" onsubmit="event.preventDefault(); alert('Mensagem enviada com sucesso!');" data-aos="fade-right" data-aos-delay="200">
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="O teu nome" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="O teu endereço de email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="A tua mensagem..." required></textarea>
+                </div>
+                
+                <button type="submit" class="btn-submit">Enviar Mensagem</button>
+            </form>
+
+            <!-- Info e Mapa -->
+            <div class="contact-info" data-aos="fade-left" data-aos-delay="400">
+                <h3>Informações de Contacto</h3>
+                <p><i class="fas fa-envelope" style="color: var(--primary-color);"></i> al20251413@alunos.ipcb.pt</p>
+                <p><i class="fas fa-phone" style="color: var(--primary-color);"></i> +351 912 345 678</p>
+                
+                <h4 style="margin-top: 1rem;">A Nossa Localização</h4>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.6918847051394!2d-7.5029304!3d39.8143224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd3d671c667a421b%3A0xc3434685ff4cebf4!2sInstituto%20Polit%C3%A9cnico%20de%20Castelo%20Branco!5e0!3m2!1spt-PT!2spt!4v1714496420541!5m2!1spt-PT!2spt" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer data-aos="fade-up">
         <div class="social-menu">
@@ -94,7 +160,67 @@
         </div>
     </footer>
 
-    <!-- INICIALIZAÇÃO DE ANIMAÇÕES -->
+    <!-- MODAIS PARA OS BEATS (Para não ter de sair da página) -->
+    
+    <!-- Modal 1 -->
+    <div id="modal1" class="modal-overlay" onclick="closeModal('modal1')">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <div class="close-modal" onclick="closeModal('modal1')">&times;</div>
+            <img src="img/beat-1.png" alt="Beat 1" class="article-detail-img">
+            <div class="article-detail-content">
+                <h2 class="article-detail-title">Beats com Propósito</h2>
+                <div class="article-meta">
+                    <span><i class="far fa-music"></i> Projeto Instrumental</span>
+                </div>
+                <div class="article-body">
+                    <p>A música sempre foi uma das formas mais puras de adoração. Cada instrumental que faço é uma oração silenciosa.</p>
+                    <h3 style="margin-top: 2rem; color: var(--secondary-color);">Produção do Beat:</h3>
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Processo" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div id="modal2" class="modal-overlay" onclick="closeModal('modal2')">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <div class="close-modal" onclick="closeModal('modal2')">&times;</div>
+            <img src="img/beat-2.png" alt="Beat 2" class="article-detail-img">
+            <div class="article-detail-content">
+                <h2 class="article-detail-title">A Paz na Criação</h2>
+                <div class="article-meta">
+                    <span><i class="far fa-music"></i> Sintetizadores</span>
+                </div>
+                <div class="article-body">
+                    <p>Neste instrumental explorei timbres mais calmos e texturas atmosféricas, imaginando o som da criação a manifestar a glória de Deus na natureza.</p>
+                    <audio controls class="audio-player" style="margin-top:20px;">
+                        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div id="modal3" class="modal-overlay" onclick="closeModal('modal3')">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <div class="close-modal" onclick="closeModal('modal3')">&times;</div>
+            <img src="img/beat-3.png" alt="Beat 3" class="article-detail-img">
+            <div class="article-detail-content">
+                <h2 class="article-detail-title">O Meu Setup</h2>
+                <div class="article-meta">
+                    <span><i class="far fa-music"></i> Equipamento & Tech</span>
+                </div>
+                <div class="article-body">
+                    <p>Para chegar ao ritmo certo, a engenharia sonora e a informática cruzam-se. Como aluno de LEI, configuro os meus plugins e drum pads com precisão algorítmica.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCRIPT DA LANDING PAGE -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({
@@ -102,6 +228,17 @@
             once: true,
             offset: 100
         });
+
+        // Lógica dos Modais
+        function openModal(id) {
+            document.getElementById(id).classList.add('active');
+            document.body.style.overflow = 'hidden'; // Impede o scroll de fundo
+        }
+
+        function closeModal(id) {
+            document.getElementById(id).classList.remove('active');
+            document.body.style.overflow = 'auto'; // Volta a permitir o scroll
+        }
     </script>
 </body>
 </html>
